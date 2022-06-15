@@ -23,9 +23,9 @@ public class FurnitureOrder implements FurnitureOrderInterface {
         
         int count = 0;
         
-        if(furnitures.containsKey(type)) {
+        if(furnitures.containsKey(type)) 
             count = furnitures.get(type);
-        }
+        
         furnitures.put(type, count + furnitureCount);
         
     }
